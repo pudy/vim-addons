@@ -19,10 +19,11 @@ set softtabstop=4
 set shiftwidth=4
 
 set t_Co=256
-set background=dark
+"set background=dark
 colorscheme molokai
 "let g:molokai_original = 1
 "let g:rehash256 = 1
+"colorscheme solarized
 
 set cursorline
 "set cursorcolumn
