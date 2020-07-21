@@ -7,6 +7,13 @@ if !exists("g:syntax_on")
 	syntax enable
 endif
 
+"if v:lang =~ "utf8$" || v:lang =~ "UTF-8$"
+"	set fileencodings=ucs-bom,utf-8,latin1,gbk,cp936,gb2312
+"	set termencoding=utf-8
+"	set fileformats=unix
+"	set encoding=prc
+"endif
+
 "set guifont=Luxi/ Mono/ 9
 set nu!
 set history=1000
