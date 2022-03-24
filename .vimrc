@@ -52,5 +52,7 @@ let g:tagbar_ctags_bin = 'ctags'
 "let g:syntastic_auto_jump = 1
 let g:syntastic_loc_list_height = 3
 
+set hlsearch
+
 Helptags
 
